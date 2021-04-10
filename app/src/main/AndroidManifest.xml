@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DAMD_U1_SGEv2">
         <activity
+            android:name=".DrawerActivity"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.DAMD_U1_SGEv2.NoActionBar"></activity>
+        <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.DAMD_U1_SGEv2.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category
                     android:name="android.intent.category.LAUNCHER"
                     android:theme="@style/Theme.DAMD_U1_SGEv2.NoActionBar" />
