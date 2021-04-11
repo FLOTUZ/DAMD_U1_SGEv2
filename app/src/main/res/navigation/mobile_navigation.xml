@@ -8,12 +8,32 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.damd_u1_sgev2.drawerFragments.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Inicio"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/opcionesFragment"
+        android:id="@+id/nav_mis_cursos"
+        android:name="com.example.damd_u1_sgev2.drawerFragments.MisCursosFragment"
+        android:label="Mis cursos"
+        tools:layout="@layout/fragment_mis_cursos" />
+
+    <fragment
+        android:id="@+id/nav_misDatos"
+        android:name="com.example.damd_u1_sgev2.drawerFragments.MisDatosFragment"
+        android:label="Mis datos"
+        tools:layout="@layout/fragment_misdatos" />
+
+    <fragment
+        android:id="@+id/nav_informacion_escolar"
+        android:name="com.example.damd_u1_sgev2.drawerFragments.InformacionEscolarFragment"
+        android:label="Informacion Escolar"
+        tools:layout="@layout/fragment_informacion_escolar" />
+
+    <fragment
+        android:id="@+id/nav_opciones"
         android:name="com.example.damd_u1_sgev2.drawerFragments.OpcionesFragment"
-        android:label="fragment Opciones"
+        android:label="Opciones"
         tools:layout="@layout/fragment_opciones" />
+
+
 </navigation>
