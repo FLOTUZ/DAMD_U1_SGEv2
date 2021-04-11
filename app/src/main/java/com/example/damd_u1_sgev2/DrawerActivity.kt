@@ -3,18 +3,15 @@ package com.example.damd_u1_sgev2
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.view.menu.MenuView
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.ui.*
-import com.example.damd_u1_sgev2.databinding.ActivityDrawerBinding
-import com.example.damd_u1_sgev2.databinding.ActivityHomeBinding
+
 
 class DrawerActivity : AppCompatActivity() {
 
@@ -39,7 +36,7 @@ class DrawerActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.opcionesFragment
+                R.id.nav_home, R.id.opcionesFragment
             ), drawerLayout
         )
 

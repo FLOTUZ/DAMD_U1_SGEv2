@@ -1,4 +1,4 @@
-package com.example.damd_u1_sgev2.ui.opciones
+package com.example.damd_u1_sgev2.drawerFragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
